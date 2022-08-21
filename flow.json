@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "e9c8ce95332132c7",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "795adb41c5d9d367",
         "type": "inject",
         "z": "d87737338f03898c",
@@ -160,5 +168,50 @@
                 "7640dfc599938b64"
             ]
         ]
+    },
+    {
+        "id": "ceae90b77ef683f1",
+        "type": "inject",
+        "z": "e9c8ce95332132c7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 440,
+        "y": 120,
+        "wires": [
+            [
+                "1b4ab5e49ae8c04c"
+            ]
+        ]
+    },
+    {
+        "id": "1b4ab5e49ae8c04c",
+        "type": "debug",
+        "z": "e9c8ce95332132c7",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 180,
+        "wires": []
     }
 ]
